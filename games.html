@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseStation | Games</title>
+  <meta name="description" content="Browse PlayStation games on PulseStation - God of War Ragnarök, Spider-Man 2, and more.">
+  <meta property="og:title" content="Games | PulseStation">
+  <meta property="og:description" content="Browse PlayStation games on PulseStation - God of War Ragnarök, Spider-Man 2, and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./godofwar_images/gow-pic1.webp">
+  <link rel="icon" href="./images/favicon.webp" type="image/webp">
+  <meta name="theme-color" content="#0a0a0f">
+</head>
+
+<body id="top">
+
+  <!-- Menu Checkbox & Drawer -->
+  <input type="checkbox" id="menu">
+  <input type="checkbox" id="close-menu">
+
+  <nav class="menu">
+
+    <div class="label-div">
+      <label class="close-window" for="menu">
+        <span class="material-icons">close</span>
+      </label>
+    </div>
+
+    <a class="nav-a" href="./index.html">
+      <span class="material-icons">home</span>
+      Home
+    </a>
+
+    <a class="nav-a" href="./games.html">
+      <span class="material-icons">sports_esports</span>
+      Games
+    </a>
+
+    <a class="nav-a" href="./console.html">
+      <span class="material-icons">videogame_asset</span>
+      Consoles
+    </a>
+
+    <details>
+      <summary>
+        <span class="material-icons">settings</span>
+        Settings
+      </summary><div class="theme-switch-div">
+        <button id="theme-toggle" class="theme-switch">
+  <span class="switch-knob"></span>
+        </button><span class="light-dark-span">Light/Dark Mode</span></div>
+    </details>
+
+    <div class="login-signup-div">
+      <a href="./signup.html">Sign Up</a>
+      <a href="./login.html">Login</a>
+    </div>
+
+  </nav>
+
+  <label class="overlay" for="menu"></label>
+
+  <!-- Header Section -->
+  <header>
+
+    <label class="hambrger" for="menu">
+      <span class="material-icons">density_medium</span>
+    </label>
+
+    <div class="logo-nav-group">
+      <a href="./index.html" class="logo-link">
+        <span class="website-name">PulseStation</span>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="./index.html">Home</a>
+        <a href="./games.html">Games</a>
+        <a href="./console.html">Consoles</a>
+        <a href="./login-and-sign-up.html">Account</a>
+      </nav>
+        <div class="theme-switch-div-desktop">
+        <button id="theme-toggle-desktop" class="theme-switch">
+  <span class="switch-knob"></span>
+        </button><span class="light-dark-span">Light/Dark Mode</span></div>
+    </div>
+
+    <a class="search-a" href="https://store.playstation.com/en-us/search" target="_blank" rel="noopener">
+      <span class="material-icons">search</span>
+    </a>
+
+  </header>
+
+  <main>
+    <section class="hero-section" style="--hero-bg: url('./images/wp3882696-playstation-games-wallpapers.webp'); --accent-color: #a45cff;">
+      <div class="hero-content">
+        <h1>Explore Unlimited Worlds</h1>
+        <p>Dive into a massive library of PlayStation exclusive titles and legendary blockbusters.</p>
+        <a href="#games-list" class="hero-btn">Browse Games</a>
+      </div>
+    </section>
+<h2 id="games">🎮 Upcoming Games</h2>
+<p class="short" style="font-size:25px; font-weight:700;">Discover the biggest PlayStation games coming soon.</p>
+<div class="games-list-vertical" id="games-list"> 
+  <div style="margin-bottom: 20px;" class="image-container-games">
+    <img class="card-img" src="gta6_images/Gtavi.webp" loading="lazy" alt="GTA 6 image">
+    <iframe class="card-iframe" data-src="https://www.youtube.com/embed/VQRLujxTm3c?mute=1" loading="lazy" title="Grand Theft Auto VI Trailer 2"></iframe>
+    <div class="gta-name">Grand Theft Auto VI</div>
+  
+    <div class="information-div">
+      <p>Vice City's calling and it's louder than ever. Follow Jason and Lucia through Rockstar's biggest, most chaotic open world yet — sun, crime, and pure madness around every corner. Can't wait for this one.</p>
+      <span class="genre">🌍 Open World</span>
+      <span class="genre">🔫 Action</span>
+      <span class="genre">🎬 Story Rich</span>
+      <span class="score">⭐ TBA</span>
+      <a class="learn-more" href="./gta6.html">Learn More</a>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 20px;" class="image-container-laufey">
+    <img class="card-img" src="images/god-of-war-laufey-playstation-5-playstation-store-cover.webp" loading="lazy" alt="God of War: Laufey image">
+    <iframe class="card-iframe" data-src="https://www.youtube.com/embed/wrOLWqBSz-0?mute=1" loading="lazy" title="God of War: Laufey Trailer"></iframe>
+    <div class="gow-name">God of War: Laufey</div>
+  
+    <div class="information-div">
+      <p>Before Kratos, there was Faye. This one's rumored to dig deep into her past, uncovering stories the series never told — same brutal combat, same cinematic moments that hit you right in the chest.</p>
+      <span class="genre">🪓 Adventure</span>
+      <span class="genre">⚔️ Action</span>
+      <span class="genre">📖 Story Rich</span>
+      <span class="score">⭐ TBA</span>
+      <span class="learn-more">Learn More</span>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 20px;" class="image-container-wolverine">
+    <img class="card-img" src="images/05a8d23ca19068015341a5fc2a248615a84ebb1b.webp" loading="lazy" alt="Marvel's Wolverine image">
+    <iframe class="card-iframe" data-src="https://www.youtube.com/embed/3Z42tBfBLJY?mute=1" loading="lazy" title="Marvel's Wolverine Trailer"></iframe>
+    <div class="wolverine-name">Marvel's Wolverine</div>
+  
+    <div class="information-div">
+      <p>No cape this time, just claws, rage, and a healing factor that's about to get tested. Insomniac is going darker and way more personal with this one — expect it to genuinely hurt, in the best possible way.</p>
+      <span class="genre">🩸 Superhero</span>
+      <span class="genre">⚔️ Action</span>
+      <span class="genre">📖 Story Rich</span>
+      <span class="score">⭐ TBA</span>
+      <span class="learn-more">Learn More</span>
+    </div>
+  </div>
+  
+  <div style="margin-bottom: 20px;" class="image-container-silent-hill">
+    <img class="card-img" src="images/0bc59ff9e7d7efc3e95b03ba3a1788556147dac61ef1c33d.webp" loading="lazy" alt="Silent Hill: Townfall image">
+    <iframe class="card-iframe" data-src="https://www.youtube.com/embed/ROgBBbPVM0c?mute=1" loading="lazy" title="Silent Hill: Townfall Trailer"></iframe>
+    <div class="silent-hill-name">Silent Hill: Townfall</div>
+  
+    <div class="information-div">
+      <p>A town that stops making sense the longer you stay in it. This is slow-burn horror done right — the kind of dread that creeps under your skin instead of just jumping out and startling you.</p>
+      <span class="genre">😱 Horror</span>
+      <span class="genre">🧠 Psychological</span>
+      <span class="genre">📖 Story Rich</span>
+      <span class="score">⭐ TBA</span>
+      <span class="learn-more">Learn More</span>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 20px;" class="image-container-phantom-blade">
+    <img class="card-img" src="images/26757162.webp" loading="lazy" alt="Phantom Blade Zero image">
+    <iframe class="card-iframe" data-src="https://www.youtube.com/embed/EZr1HXkEahs?mute=1" loading="lazy" title="Phantom Blade Zero Trailer"></iframe>
+    <div class="phantom-blade-name">Phantom Blade Zero</div>
+  
+    <div class="information-div">
+      <p>Fast swords, a dark martial arts world, and a revenge story that doesn't hold back. If you're into combat that feels stylish and brutal at the same time, this one was made for you.</p>
+      <span class="genre">⚔️ Action RPG</span>
+      <span class="genre">🥷 Hack & Slash</span>
+      <span class="genre">🌑 Dark Fantasy</span>
+      <span class="score">⭐ TBA</span>
+      <span class="learn-more">Learn More</span>
+    </div>
+  </div>
+</div>
+    <section class="games-list-section">
+      <h2 class="visually-hidden">PlayStation Games List</h2>
+
+      <div class="games-list-vertical">
+        <div class="image-container-ragnarok">
+          <img class="card-img" src="./godofwar_images/gow-pic1.webp" loading="lazy" alt="God of War Ragnarok game cover">
+          <iframe class="card-iframe-games-html" data-src="https://www.youtube.com/embed/g1wr0DfV73E?mute=1" loading="lazy" title="God of War Ragnarök Trailer"></iframe>
+          <div class="ragnarok-name">God of War Ragnarök</div>
+          <div class="information-div">
+            <p>Kratos and Atreus, Norse gods, one of the best endings in gaming. Just play it.</p>
+            <span class="genre">🪓 Action</span>
+            <span class="genre">⚔️ Adventure</span>
+            <span class="genre">📖 Story Rich</span>
+            <span class="score">⭐ 9.4</span>
+            <a class="learn-more" href="./godofwar.html">Learn More</a>
+          </div>
+        </div>
+
+        <div class="image-container-sp2">
+          <img class="card-img" src="./spiderman2_images/marvels-spider-man-2-3840x2160-30218.webp" loading="lazy" alt="Marvel's Spider-Man 2 game cover">
+          <iframe class="card-iframe-games-html" data-src="https://www.youtube.com/embed/9fVYKsEmuRo?mute=1" loading="lazy" title="Marvel's Spider-Man 2 Trailer"></iframe>
+          <div class="sp2-name">Marvel's Spider-Man 2</div>
+          <div class="information-div">
+            <p>Two Spider-Men, one city, and Venom making everything worse. Web-swinging's never felt this good.</p>
+            <span class="genre">🕸️ Open World</span>
+            <span class="genre">🦸 Superhero</span>
+            <span class="genre">⚔️ Action</span>
+            <span class="score">⭐ 9.0/10</span>
+            <a class="learn-more" href="./spiderman2.html">Learn More</a>
+          </div>
+        </div>
+
+        <div class="image-container-hogwarts">
+          <img class="card-img" src="./images/Hogwarts.webp" loading="lazy" alt="Hogwarts Legacy game cover">
+          <iframe class="card-iframe-games-html" data-src="https://www.youtube.com/embed/NTnok1LvKUk?mute=1" loading="lazy" title="Hogwarts Legacy Trailer"></iframe>
+          <div class="hogwarts-name">Hogwarts Legacy</div>
+          <div class="information-div">
+            <p>Your own wizard, your own story, an entire castle to explore. Peak comfort gaming.</p>
+            <span class="genre">✨ RPG</span>
+            <span class="genre">🏰 Open World</span>
+            <span class="genre">📖 Story Rich</span>
+            <span class="score">⭐ 8.4/10</span>
+            <span class="learn-more">Learn More</span>
+          </div>
+        </div>
+
+        <div class="image-container-mortal11">
+          <img class="card-img" src="./images/Mortal11.webp" loading="lazy" alt="Mortal Kombat 11 game cover">
+          <iframe class="card-iframe-games-html" data-src="https://www.youtube.com/embed/JTGRHx3H6N0?mute=1" loading="lazy" title="Mortal Kombat 11 Trailer"></iframe>
+          <div class="mortal11-name">Mortal Kombat 11</div>
+          <div class="information-div">
+            <p>Brutal fights, brutal fatalities, zero mercy. A classic for a reason.</p>
+            <span class="genre">🥊 Fighting</span>
+            <span class="genre">🩸 Violent</span>
+            <span class="genre">🎮 Classic</span>
+            <span class="score">⭐ 8.2/10</span>
+            <span class="learn-more">Learn More</span>
+          </div>
+        </div>
+
+        <div class="image-container-lego">
+          <img class="card-img" src="./images/Lego.webp" loading="lazy" alt="Lego Batman Legacy of the Dark Knight game cover">
+          <iframe class="card-iframe-games-html" data-src="https://www.youtube.com/embed/DfJaUpW_P00?mute=1" loading="lazy" title="Lego Batman Trailer"></iframe>
+          <div class="lego-name">Lego Batman Legacy of the Dark Knight</div>
+          <div class="information-div">
+            <p>Gotham but make it Lego — funny, chaotic, and somehow still a good Batman story.</p>
+            <span class="genre">🦇 Action</span>
+            <span class="genre">😂 Comedy</span>
+            <span class="genre">🧱 Family</span>
+            <span class="score">⭐ 8.3/10</span>
+            <span class="learn-more">Learn More</span>
+          </div>
+        </div>
+
+        <div class="image-container-ghost-of-yotei">
+          <img class="card-img" src="./images/Ghost-of-Yotei.webp" loading="lazy" alt="Ghost Of Yotei game cover">
+          <iframe class="card-iframe-games-html" data-src="https://www.youtube.com/embed/sLcksHR30UA?mute=1" loading="lazy" title="Ghost of Yōtei Trailer"></iframe>
+          <div class="ghost-of-yotei-name">Ghost of Yōtei</div>
+          <div class="information-div">
+            <p>Snowy mountains, a lone warrior, revenge on her mind. From the makers of Tsushima.</p>
+            <span class="genre">❄️ Samurai</span>
+            <span class="genre">⚔️ Action</span>
+            <span class="genre">🎬 Story Rich</span>
+            <span class="score">⭐ 8.6/10</span>
+            <span class="learn-more">Learn More</span>
+          </div>
+        </div>
+
+        <div class="image-container-ghost-of-tsushima">
+          <img class="card-img" src="./images/Gost.webp" loading="lazy" alt="Ghost Of Tsushima game cover">
+          <iframe class="card-iframe-games-html" data-src="https://www.youtube.com/embed/sc4_dXjkCl8?mute=1" loading="lazy" title="Ghost of Tsushima Trailer"></iframe>
+          <div class="tsushima-name">Ghost of Tsushima</div>
+          <div class="information-div">
+            <p>One of the most beautiful games ever made. Also happens to have great sword fights.</p>
+            <span class="genre">🍁 Samurai</span>
+            <span class="genre">🌍 Open World</span>
+            <span class="genre">⚔️ Action</span>
+            <span class="score">⭐ 8.3/10</span>
+            <span class="learn-more">Learn More</span>
+          </div>
+        </div>
+
+        <div class="image-container-assassin">
+          <img class="card-img" src="./images/Assassins.webp" loading="lazy" alt="Assassin's Creed Shadows game cover">
+          <iframe class="card-iframe-games-html" data-src="https://www.youtube.com/embed/f2s4cgHsnTA?mute=1" loading="lazy" title="Assassin's Creed Shadows Trailer"></iframe>
+          <div class="assassin-name">Assassin's Creed Shadows</div>
+          <div class="information-div">
+            <p>Feudal Japan, two very different assassins, stealth done right.</p>
+            <span class="genre">🥷 Stealth</span>
+            <span class="genre">🏯 Open World</span>
+            <span class="genre">⚔️ Action</span>
+            <span class="score">⭐ 8.1/10</span>
+            <span class="learn-more">Learn More</span>
+          </div>
+        </div>
+
+        <div class="image-container-resident">
+          <img class="card-img" src="./images/resident-evil-requiem.webp" loading="lazy" alt="Resident Evil Requiem game cover">
+          <iframe class="card-iframe-games-html" data-src="https://www.youtube.com/embed/9lrThxCoznw?mute=1" loading="lazy" title="Resident Evil Requiem Trailer"></iframe>
+          <div class="resident-name">Resident Evil Requiem</div>
+          <div class="information-div">
+            <p>New nightmare, same terrifying Resident Evil dread. Sleep with the lights on.</p>
+            <span class="genre">😱 Horror</span>
+            <span class="genre">🧟 Survival</span>
+            <span class="genre">🔦 Suspense</span>
+            <span class="score">⭐ 8.9/10</span>
+            <span class="learn-more">Learn More</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="footer-span">© 2026 PulseStation</span>
+    <a href="./index.html#about">About Us</a>
+  </footer>
+
+  <a class="back-to-top" href="#top"><i class="material-icons">keyboard_arrow_up</i></a>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
